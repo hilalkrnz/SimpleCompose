@@ -71,9 +71,9 @@ fun MailColumn(modifier: Modifier = Modifier) {
             }) {
                 Text(text = "Add")
             }
-
-            NameList(names = names)
         }
+
+        NameList(names = names)
     }
 }
 
